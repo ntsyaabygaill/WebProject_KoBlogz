@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>  
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +40,9 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
               <li class="nav-item active"><a href="K-Drama.html" class="nav-link">K-Drama</a></li>
-              <li class="nav-item"><a href="K-Pop.html" class="nav-link">K-Pop</a></li>
+			  <li class="nav-item"><a href="K-Pop.html" class="nav-link">K-Pop</a></li>
+			  <li class="nav-item"><a href="#" class="nav-link"><?php echo $_SESSION["user"] ?></a></li>
+              <li class="nav-item"><a href="logout.php" class="nav-link">Logout</a></li>
           </ul>
       </div>
      </div>

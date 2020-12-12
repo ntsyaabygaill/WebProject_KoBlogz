@@ -1,3 +1,18 @@
+<?php
+
+include("connection.php");
+
+session_start();
+
+// if (!isset($_SESSION["user"])) {
+//     header("Location:signin.php");
+// }
+
+// $_SESSION["user"] = "Aby";
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,8 +48,10 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="K-Drama.html" class="nav-link">K-Drama</a></li>
-              <li class="nav-item"><a href="K-Pop.html" class="nav-link">K-Pop</a></li>
+              <li class="nav-item"><a href="K-Drama.php" class="nav-link">K-Drama</a></li>
+              <li class="nav-item"><a href="K-Pop.php" class="nav-link">K-Pop</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><?php echo $_SESSION["user"] ?></a></li>
+              <li class="nav-item"><a href="logout.php" class="nav-link">Logout</a></li>
           </ul>
       </div>
      </div>
@@ -53,7 +70,7 @@
 </div>
 </div>
 
-<section class="ftco-section ftco-no-pb ftco-no-pt">
+<!-- <section class="ftco-section ftco-no-pb ftco-no-pt">
    <div class="container">
       <div class="row">
          <div class="col-md-7"></div>
@@ -83,7 +100,7 @@
  </div>
 </div>
 </div>
-</section>
+</section> -->
 
 <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_4.jpeg);">
  <div class="overlay"></div>
