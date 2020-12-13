@@ -285,8 +285,8 @@ session_start();
       <div class="services">
         <div class="icon icon-2 d-flex align-items-center justify-content-center"><span class="flaticon-instructor"></span></div>
         <div class="media-body">
-          <h3 class="heading mb-3">r</h3>
-          <p>A small river named Duden flows by their place and supplies</p>
+          <h3 class="heading mb-3">Info Soundtrack Drakor</h3>
+          <p>Disini kamu bisa cari soundtrack drakor yang kamu suka!</p>
       </div>
   </div>    
 </div>
@@ -294,8 +294,8 @@ session_start();
   <div class="services">
     <div class="icon icon-3 d-flex align-items-center justify-content-center"><span class="flaticon-quiz"></span></div>
     <div class="media-body">
-      <h3 class="heading mb-3">World Class &amp; Quiz</h3>
-      <p>A small river named Duden flows by their place and supplies</p>
+      <h3 class="heading mb-3">BIAS HD</h3>
+      <p>Foto-foto bias disini udah HD semua,jadi makin lancar halunya!</p>
   </div>
 </div>      
 </div>
@@ -303,8 +303,8 @@ session_start();
   <div class="services">
     <div class="icon icon-4 d-flex align-items-center justify-content-center"><span class="flaticon-browser"></span></div>
     <div class="media-body">
-      <h3 class="heading mb-3">Get Certified</h3>
-      <p>A small river named Duden flows by their place and supplies</p>
+      <h3 class="heading mb-3">Full Album Bias</h3>
+      <p>Jadi disini juga ada informasi mengenai Album biasmu loh..</p>
   </div>
 </div>      
 </div>
@@ -320,61 +320,27 @@ session_start();
       <div class="col-md pt-5">
         <div class="ftco-footer-widget pt-md-5 mb-4">
           <h2 class="ftco-heading-2">About</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <p>Blogs Seputar K-Pop idol dan K-Drama. Yang butuh foto HD bias, mampirnya kesini..</p>
           <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+            <li class="ftco-animate"><a href="https://twitter.com/abeegell" target="_blank"><span class="fa fa-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.instagram.com/natasyanelwan_/?hl=en" target="_blank"><span class="fa fa-instagram"></span></a></li>
         </ul>
     </div>
 </div>
 <div class="col-md pt-5">
-    <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
-      <h2 class="ftco-heading-2">Help Desk</h2>
-      <ul class="list-unstyled">
-        <li><a href="#" class="py-2 d-block">Customer Care</a></li>
-        <li><a href="#" class="py-2 d-block">Legal Help</a></li>
-        <li><a href="#" class="py-2 d-block">Services</a></li>
-        <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
-        <li><a href="#" class="py-2 d-block">Refund Policy</a></li>
-        <li><a href="#" class="py-2 d-block">Call Us</a></li>
+  <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+    <h2 class="ftco-heading-2">Fresh From The Oven!</h2>
+    <ul class="list-unstyled">
+      <li><a href="nct-details.html" class="py-2 d-block">NCT Album</a></li>
+      <li><a href="cloy-detail.html" class="py-2 d-block">Soundtrack Crash Landing On You</a></li>
+      <li><a href="nct-details.html" class="py-2 d-block">About Lee Jeno</a></li>
+      <li><a href="cloy-detail.html" class="py-2 d-block">Kim Hyun Bin as Ri Jeong-hyuk</a></li>
     </ul>
-</div>
-</div>
-<div class="col-md pt-5">
-   <div class="ftco-footer-widget pt-md-5 mb-4">
-      <h2 class="ftco-heading-2">Recent Courses</h2>
-      <ul class="list-unstyled">
-        <li><a href="#" class="py-2 d-block">Computer Engineering</a></li>
-        <li><a href="#" class="py-2 d-block">Web Design</a></li>
-        <li><a href="#" class="py-2 d-block">Business Studies</a></li>
-        <li><a href="#" class="py-2 d-block">Civil Engineering</a></li>
-        <li><a href="#" class="py-2 d-block">Computer Technician</a></li>
-        <li><a href="#" class="py-2 d-block">Web Developer</a></li>
-    </ul>
-</div>
-</div>
-<div class="col-md pt-5">
-    <div class="ftco-footer-widget pt-md-5 mb-4">
-       <h2 class="ftco-heading-2">Have a Questions?</h2>
-       <div class="block-23 mb-3">
-         <ul>
-           <li><span class="icon fa fa-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-           <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-           <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
-       </ul>
-   </div>
-</div>
-</div>
-</div>
-<div class="row">
-  <div class="col-md-12 text-center">
-
-    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
   </div>
 </div>
+
+</div>
+
 </div>
 </footer>
 
