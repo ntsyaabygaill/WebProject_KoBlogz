@@ -88,7 +88,7 @@ session_start();
 		   </div>
 		   <h3 class="heading"><a href="#">W</a></h3>
 		   <p>W (Hangul: 더블유; RR: Deobeuryu) adalah serial televisi Korea Selatan yang mengudara di MBC pada 20 Juli 2016, dibintangi Lee Jong-suk dan Han Hyo-joo. Drama pertama Han Hyo Joo di layar kaca setelah 6 tahun.</p>
-		   <p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
+		   <p><a href="cloy-detail.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
 		 </div>
 	   </div>
 	  </div>
