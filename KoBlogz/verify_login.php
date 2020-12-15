@@ -2,22 +2,16 @@
 
 include("connection.php");
 
-session_start();
-
 $email = $_POST["email"];
 $password = $_POST["password"];
 
-$sql = "SELECT * FROM user WHERE email='$email' AND password='$password'";
+$hash = password_hash($password, PASSWORD_DEFAULT);
 
-$result = mysqli_query($conn,$sql);
-$row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-//$active = $row['active'];
-$count = mysqli_num_rows($result);
+if (!password_verify($password, $hash)) {
+    echo 'Invalid password.';
+    header("Location:signin.php");
+   
 
-if($count == 1) {
-    $_SESSION['user'] = $email;
-    header("location:home.php");
-}else {
-    $error = "Your Login Name or Password is invalid";
+header("Location:home.php");
 }
 ?>

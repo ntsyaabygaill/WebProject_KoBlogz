@@ -31,7 +31,7 @@ session_start();
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 			<div class="container">
-			  <a class="navbar-brand" href="index.html"><span>Ko</span>Blogz</a>
+			  <a class="navbar-brand" href="home.php"><span>Ko</span>Blogz</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -54,7 +54,7 @@ session_start();
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end justify-content-center">
 				<div class="col-md-9 ftco-animate pb-5 text-center">
-					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span><i class="fa fa-chevron-right"></i></span></p>
+					<p class="breadcrumbs"><span class="mr-2"><a href="home.php">Home <i class="fa fa-chevron-right"></i></a></span> <span><i class="fa fa-chevron-right"></i></span></p>
 					<h1 class="mb-0 bread">K-Pop</h1>
 				</div>
 			</div>
@@ -70,7 +70,7 @@ session_start();
 							<div class="img align-self-stretch" style="background-image: url(images/idoll_1.jpeg);"></div>
 						</div>
 						<div class="text pt-3">
-							<h3><a href="nct-details.html">NCT</a></h3>
+							<h3><a href="nct-details.php">NCT</a></h3>
 							<span class="position mb-2">Boy group</span>
 							<div class="faded">
 								<p>NCT (Hangul: 엔시티) adalah grup vokal pria asal Korea Selatan yang dibentuk oleh SM Entertainment. 

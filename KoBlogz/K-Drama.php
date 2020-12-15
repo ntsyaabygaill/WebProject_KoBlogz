@@ -31,16 +31,16 @@ session_start();
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><span>Ko</span>Blogz</a>
+          <a class="navbar-brand" href="home.php"><span>Ko</span>Blogz</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
      
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-              <li class="nav-item active"><a href="K-Drama.html" class="nav-link">K-Drama</a></li>
-			  <li class="nav-item"><a href="K-Pop.html" class="nav-link">K-Pop</a></li>
+              <li class="nav-item"><a href="home.php" class="nav-link">Home</a></li>
+              <li class="nav-item active"><a href="K-Drama.php" class="nav-link">K-Drama</a></li>
+			  <li class="nav-item"><a href="K-Pop.php" class="nav-link">K-Pop</a></li>
 			  <li class="nav-item"><a href="#" class="nav-link"><?php echo $_SESSION["user"] ?></a></li>
               <li class="nav-item"><a href="logout.php" class="nav-link">Logout</a></li>
           </ul>
@@ -55,7 +55,7 @@ session_start();
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end justify-content-center">
 				<div class="col-md-9 ftco-animate pb-5 text-center">
-					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>K-Drama<i class="fa fa-chevron-right"></i></span></p>
+					<p class="breadcrumbs"><span class="mr-2"><a href="home.php">Home <i class="fa fa-chevron-right"></i></a></span> <span>K-Drama<i class="fa fa-chevron-right"></i></span></p>
 					<h1 class="mb-0 bread">K-Drama</h1>
 				</div>
 			</div>
@@ -74,7 +74,7 @@ session_start();
 			   </div>
 			   <h3 class="heading"><a href="#">Crash Landing On You</a></h3>
 			   <p>Crash Landing on You (Hangul: 사랑의 불시착 ; RR: Sarangui Bulsichak; lit. Love's Emergency Landing) adalah seri televisi Korea Selatan tahun 2019 yang dibintangi oleh Hyun Bin, Son Ye-jin, Kim Jung-hyun, dan Seo Ji-hye</p>
-			   <p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
+			   <p><a href="cloy-detail.php" class="btn btn-secondary py-2 px-3">Read more</a></p>
 			 </div>
 		   </div>
 		 </div>
