@@ -55,7 +55,7 @@ session_start();
   <div class="container">
     <div class="row no-gutters slider-text align-items-end justify-content-center">
       <div class="col-md-9 ftco-animate pb-5 text-center">
-       <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span class="mr-2"><a href="index.html">K-Pop <i class="fa fa-chevron-right"></i></a></span></p>
+       <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="fa fa-chevron-right"></i></a></span> <span class="mr-2"><a href="index.php">K-Pop <i class="fa fa-chevron-right"></i></a></span></p>
        <h1 class="mb-0 bread">NCT</h1>
      </div>
    </div>
@@ -302,10 +302,10 @@ session_start();
   <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
     <h2 class="ftco-heading-2">Fresh From The Oven!</h2>
     <ul class="list-unstyled">
-      <li><a href="nct-details.html" class="py-2 d-block">NCT Album</a></li>
-      <li><a href="cloy-detail.html" class="py-2 d-block">Soundtrack Crash Landing On You</a></li>
-      <li><a href="nct-details.html" class="py-2 d-block">About Lee Jeno</a></li>
-      <li><a href="cloy-detail.html" class="py-2 d-block">Kim Hyun Bin as Ri Jeong-hyuk</a></li>
+      <li><a href="nct-details.php" class="py-2 d-block">NCT Album</a></li>
+      <li><a href="cloy-detail.php" class="py-2 d-block">Soundtrack Crash Landing On You</a></li>
+      <li><a href="nct-details.php" class="py-2 d-block">About Lee Jeno</a></li>
+      <li><a href="cloy-detail.php" class="py-2 d-block">Kim Hyun Bin as Ri Jeong-hyuk</a></li>
     </ul>
   </div>
 </div>

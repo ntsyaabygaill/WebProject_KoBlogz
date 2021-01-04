@@ -30,7 +30,7 @@
             <span class="oi oi-menu"></span> Menu
         </button>
      
-
+        
      </div>
      </nav>
      <!-- END nav -->
@@ -53,12 +53,20 @@
          <div class="col-md-7"></div>
          <div class="col-md-5 order-md-last">
           <div class="login-wrap p-4 p-md-5">
-              <h3 class="mb-4">Login Now</h3>
+              <h3 class="mb-4">Register Now</h3>
 
-              <form action="verify_login.php" class="signup-form" method="POST">
+              <form action="verify_register.php" class="signup-form" method="POST">
+                 <div class="form-group">
+                    <label class="label" for="name">Full Name</label>
+                    <input type="text" class="form-control" placeholder="Masukin ya namanya.." name="fullname">
+                </div>
                 <div class="form-group">
-                    <label class="label" for="username">Username</label>
-                    <input type="text" class="form-control" placeholder="username juga tolong diisi.." name="username">
+                  <label class="label" for="name">Username</label>
+                  <input type="text" class="form-control" placeholder="Masukin usernamenya ya.." name="username">
+              </div>
+                <div class="form-group">
+                    <label class="label" for="email">Email Address</label>
+                    <input type="text" class="form-control" placeholder="email juga tolong diisi.." name="email">
                 </div>
                 <div class="form-group">
                  <label class="label" for="password">Password</label>
@@ -68,7 +76,7 @@
                  <button type="submit" class="btn btn-primary submit"><span class="fa fa-paper-plane"></span></button>
              </div>
          </form>
-         <p class="text-center">Register ? <a href="register.php">Sign Up</a></p>
+         <p class="text-center">Already have an account? <a href="signin.php">Sign In</a></p>
      </div>
  </div>
 </div>
@@ -99,7 +107,5 @@
 
 </body>
 </html>
-
-
 
 

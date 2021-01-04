@@ -1,15 +1,9 @@
-<?php
+<?php 
 
-include("connection.php");
+if(!isset($_SESSION['user'])){
+header ('location: signin.php');
 
-session_start();
-
-// if (!isset($_SESSION["user"])) {
-//     header("Location:signin.php");
-// }
-
-// $_SESSION["user"] = "Aby";
-
+}
 
 ?>
 
@@ -40,19 +34,16 @@ session_start();
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-          <a class="navbar-brand" href="home.php"><span>Ko</span>Blogz</a>
+          <a class="navbar-brand" href="index.php"><span>Ko</span>Blogz</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
      
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active"><a href="home.php" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="K-Drama.php" class="nav-link">K-Drama</a></li>
-              <li class="nav-item"><a href="K-Pop.php" class="nav-link">K-Pop</a></li>
-              <li class="nav-item"><a href="#" class="nav-link"><?php echo $_SESSION["user"] ?></a></li>
-              <li class="nav-item"><a href="logout.php" class="nav-link">Logout</a></li>
-            
+              <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="K-Drama.html" class="nav-link">K-Drama</a></li>
+              <li class="nav-item"><a href="K-Pop.html" class="nav-link">K-Pop</a></li>
           </ul>
       </div>
      </div>
@@ -70,38 +61,6 @@ session_start();
 </div>
 </div>
 </div>
-
-<!-- <section class="ftco-section ftco-no-pb ftco-no-pt">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-7"></div>
-         <div class="col-md-5 order-md-last">
-          <div class="login-wrap p-4 p-md-5">
-              <h3 class="mb-4">Register Now</h3>
-
-              <form action="verify_register.php" class="signup-form" method="POST">
-                 <div class="form-group">
-                    <label class="label" for="name">Full Name</label>
-                    <input type="text" class="form-control" placeholder="Masukin ya namanya.." name="fullname">
-                </div>
-                <div class="form-group">
-                    <label class="label" for="email">Email Address</label>
-                    <input type="text" class="form-control" placeholder="email juga tolong diisi.." name="email">
-                </div>
-                <div class="form-group">
-                 <label class="label" for="password">Password</label>
-                 <input id="password-field" type="password" class="form-control" placeholder="sutt..password" name="password">
-             </div>
-             <div class="form-group d-flex justify-content-end mt-4">
-                 <button type="submit" class="btn btn-primary submit"><span class="fa fa-paper-plane"></span></button>
-             </div>
-         </form>
-         <p class="text-center">Already have an account? <a href="signin.php">Sign In</a></p>
-     </div>
- </div>
-</div>
-</div>
-</section> -->
 
 <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_4.jpeg);">
  <div class="overlay"></div>

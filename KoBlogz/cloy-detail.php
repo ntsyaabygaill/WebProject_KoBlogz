@@ -173,10 +173,10 @@ session_start();
   <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
     <h2 class="ftco-heading-2">Fresh From The Oven!</h2>
     <ul class="list-unstyled">
-      <li><a href="nct-details.html" class="py-2 d-block">NCT Album</a></li>
-      <li><a href="cloy-detail.html" class="py-2 d-block">Soundtrack Crash Landing On You</a></li>
-      <li><a href="nct-details.html" class="py-2 d-block">About Lee Jeno</a></li>
-      <li><a href="cloy-detail.html" class="py-2 d-block">Kim Hyun Bin as Ri Jeong-hyuk</a></li>
+      <li><a href="nct-details.php" class="py-2 d-block">NCT Album</a></li>
+      <li><a href="cloy-detail.php" class="py-2 d-block">Soundtrack Crash Landing On You</a></li>
+      <li><a href="nct-details.php" class="py-2 d-block">About Lee Jeno</a></li>
+      <li><a href="cloy-detail.php" class="py-2 d-block">Kim Hyun Bin as Ri Jeong-hyuk</a></li>
     </ul>
   </div>
 </div>
