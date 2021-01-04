@@ -63,8 +63,8 @@
 
               <form action="verify_login.php" class="signup-form" method="POST">
                 <div class="form-group">
-                    <label class="label" for="email">Email Address</label>
-                    <input type="text" class="form-control" placeholder="email juga tolong diisi.." name="email">
+                    <label class="label" for="username">Username</label>
+                    <input type="text" class="form-control" placeholder="username juga tolong diisi.." name="username">
                 </div>
                 <div class="form-group">
                  <label class="label" for="password">Password</label>

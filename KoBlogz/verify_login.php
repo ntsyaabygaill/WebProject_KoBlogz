@@ -3,17 +3,19 @@
 include("connection.php");
 session_start();
 
-$email = $_POST["email"];
-$password = $_POST["password"];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
-$hash = password_hash($password, PASSWORD_DEFAULT);
+$sql = "SELECT * FROM user WHERE username = '$username'" ;
+$yolo = mysqli_query($conn,$sql);
+$yili = mysqli_fetch_assoc($yolo);
 
-if (!password_verify($password, $hash)) {
-    echo 'Invalid password.';
+if (!password_verify($password, $yili['password'])) {
+    echo 'Invalid password';
     header("Location:signin.php");
 }
 else {
 	header("Location:home.php");
-	$_SESSION["user"] = $email;
+	$_SESSION['user'] = $username;
 }
 ?>
